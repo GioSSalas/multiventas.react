@@ -1,0 +1,13 @@
+@import '~tailwindcss/dist/tailwind.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+input:focus,
+input:active,
+button:focus,
+button:active{
+    box-shadow: none;
+    outline: none;
+}
